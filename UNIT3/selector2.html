@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <Style>
+       body{
+        color: orange;
+       } 
+
+        div p{
+       color:blue;
+       } 
+       .box{
+        color:green;
+       }
+       /* a:hover{
+        color:aqua;
+       } */
+      a:visited{
+        color:blueviolet;
+      }
+     ul{
+      list-style: none; display:flex;
+     }
+     ul li{
+      margin: 20px; border-right: 1px solid orangered;
+      padding-right: 100px;
+     }
+     ul li:hover{
+      color: brown;
+     }
+     .para{
+      color:darkolivegreen;
+     }
+     .para::first-letter{
+      color:brown;font-size:large;
+     }
+     .para::first-line{
+      background-color:aqua;
+     }
+     </Style>
+</head>
+<body>
+    <!--CSS Combinators-->
+
+    <div class="box">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio voluptatem nihil excepturi reiciendis corrupti,
+                 totam odio autem veritatis delectOus quod hic dolores consequuntur,
+                  omnis laboriosam molestias natus magnam placeat perspiciatis!
+            </p>
+    </div>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Accusantium laborum quidem repellat? Possimus, nemo eum.
+              Quis incidunt dolore quasi adipisci perferendis a ex consequatur similique,
+             qui sequi accusantium ipsam iste.
+        </p>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. prakherDelectus accusamus facilis architecto! Accusantium sunt 
+      consequuntur iusto blanditiis praesentium molestiae cum alias facilis,
+       in a deserunt autem earum magnam est. Esse.
+
+
+    </p>
+    <a href="">Visit The Link</a>
+    <ul>
+      <li>home</li>
+     <li>service</li>
+     <li>about</li>
+     <li>gallery</li>
+    </ul>
+    <!--CSS Pesudo elemnts-->
+    <p class="para">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+       Cum facere, molestias ad harum tenetur id iure? Fugit quisquam et laboriosam doloremque?       
+       Consequuntur maiores itaque quisquam! Totam doloribus deleniti libero deserunt?
+
+
+
+
+    </p>
+</body>
+</html>
